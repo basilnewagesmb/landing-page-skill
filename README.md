@@ -27,9 +27,19 @@ cp -r landing-page-skill/.claude/skills/landing-page <your-project>/.claude/skil
 cp -r landing-page-skill/.claude/skills/landing-page ~/.claude/skills/
 ```
 
+### On claude.ai (web)
+
+Claude Code installs above don't apply to the web app — claude.ai uses a separate ZIP upload flow instead:
+
+1. Download [`landing-page-skill.zip`](landing-page-skill.zip) from this repo.
+2. In claude.ai, go to **Settings → Capabilities** and enable **Code Execution** and **File Creation** (required for Skills).
+3. Go to **Settings → Capabilities → Skills** and upload the ZIP.
+
+Requires a Pro, Max, Team, or Enterprise plan.
+
 ## Usage
 
-In Claude Code, just ask to create, scaffold, or start a new website or landing page. The skill activates automatically based on its description and walks through the steps above.
+Just ask to create, scaffold, or start a new website or landing page. The skill activates automatically based on its description and walks through the steps above.
 
 ## License
 
